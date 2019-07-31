@@ -5,11 +5,11 @@ backend:
 media_folder: media_folder
 
 collections:
-  - label: 'Pages'
-    name: 'pages'
+  - label: 'Content'
+    name: 'content'
     files:
-      - label: 'About Page'
-        name: 'about'
+      - label: 'Styling'
+        name: 'styling'
         file: 'content/style.yml'
         fields:
           - { label: Title, name: title, widget: string }
